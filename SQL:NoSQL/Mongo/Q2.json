@@ -1,0 +1,22 @@
+{
+initialCollection:'People',
+pipeline:[{$match: {
+    name: 'Kathleen Kennedy',
+    produced: {
+     $exists: true
+    }
+   }}, {$unwind: {
+    path: '$produced'
+   }}, {$lookup: {
+    from: 'People',
+    localField: 'produced',
+    foreignField: 'produced',
+    as: 'producer_data'
+   }}, {$match: {
+    'producer_data.1': {
+     $exists: false
+    }
+   }}, {$project: {
+    _id: '$produced'
+   }}]
+}

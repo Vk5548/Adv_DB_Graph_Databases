@@ -1,0 +1,1 @@
+MATCH (kk:Person {name: 'Kathleen Kennedy'}) -[pr:produces]->(m:Movie)  WHERE NOT (kk)-[pr]->(m)<-[:produces]-(:Person) RETURN m.id as _id

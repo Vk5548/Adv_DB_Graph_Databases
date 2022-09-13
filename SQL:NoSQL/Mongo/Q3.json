@@ -1,0 +1,84 @@
+{
+initialCollection:'People',
+pipeline:[{$match: {
+    name: 'Woody Allen',
+    directed: {
+     $exists: true
+    }
+   }}, {$unwind: {
+    path: '$directed'
+   }}, {$lookup: {
+    from: 'Movies',
+    localField: 'directed',
+    foreignField: '_id',
+    as: 'movieCom'
+   }}, {$unwind: {
+    path: '$movieCom'
+   }}, {$match: {
+    'movieCom.genres': 'Comedy'
+   }}, {$project: {
+    movie: '$movieCom._id',
+    _id: 0
+   }}, {$lookup: {
+    from: 'People',
+    'let': {
+     wam: '$movie'
+    },
+    pipeline: [
+     {
+      $match: {
+       acted: {
+        $exists: true
+       },
+       knownfor: {
+        $exists: true
+       }
+      }
+     },
+     {
+      $match: {
+       $expr: {
+        $and: [
+         {
+          $in: [
+           '$$wam',
+           '$acted'
+          ]
+         },
+         {
+          $in: [
+           '$$wam',
+           '$knownfor'
+          ]
+         }
+        ]
+       }
+      }
+     }
+    ],
+    as: 'kfa'
+   }}, {$unwind: {
+    path: '$kfa'
+   }}, {$group: {
+    _id: {
+     id: '$kfa._id',
+     name: '$kfa.name'
+    },
+    kfcm: {
+     $push: {
+      field: '$kfmovie._id'
+     }
+    }
+   }}, {$match: {
+    'kfcm.1': {
+     $exists: true
+    }
+   }}, {$project: {
+    name: '$_id.name',
+    _id: 0
+   }}, {$match: {
+    name: {
+     $ne: 'Woody Allen'
+    }
+   }}]
+}

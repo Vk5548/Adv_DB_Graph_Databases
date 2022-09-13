@@ -1,0 +1,22 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	implementation 'mysql:mysql-connector-java:8.0.30'
+	implementation 'com.google.guava:guava:31.1-jre'
+	implementation 'org.mongodb:mongo-java-driver:3.12.11'
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'edu.rit.gdb.a1.IMDBExchangeMongo'
+}
+
+java {
+    sourceCompatibility = '17'
+}

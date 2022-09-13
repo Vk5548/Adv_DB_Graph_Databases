@@ -1,0 +1,6 @@
+{
+initialCollection:'Movies',
+pipeline:[
+{$limit : 1 }
+]
+}

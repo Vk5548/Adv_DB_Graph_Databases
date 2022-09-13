@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5237cae4-8233-46c2-a027-4c583514df72" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/Ass3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/https:upload.wikimedia.org:wikipedia:commons:2:2b:Feedback_arc_set_NP-completeness.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/out/production/Ass3/Alternate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/out/production/Ass3/BGS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/out/production/Ass3/Chessboard$Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/out/production/Ass3/Chessboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/out/production/Ass3/Ford.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/out/production/Ass3/Regex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/out/production/Ass3/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/out/production/Ass3/myCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/src/Alternate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/src/BGS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/src/Chessboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/src/Ford.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/src/OddEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/src/Regex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Ass3/src/myCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment3/vk5548/CKDiscovery/app/bin/main/edu/rit/ibd/a3/CKDiscovery$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment3/vk5548/CKDiscovery/app/bin/main/edu/rit/ibd/a3/CKDiscovery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment3/vk5548/CKDiscovery/app/bin/main/edu/rit/ibd/a3/CKDiscovery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment3/vk5548/CanonicalCover/app/bin/main/edu/rit/ibd/a3/CanonicalCover.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment3/vk5548/CanonicalCover/app/bin/main/edu/rit/ibd/a3/CanonicalCover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment3/vk5548/FDDiscovery/app/bin/main/edu/rit/ibd/a3/FDDiscovery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment3/vk5548/FDDiscovery/app/bin/main/edu/rit/ibd/a3/FDDiscovery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment3/vk5548/TNFDecomposition/app/bin/main/edu/rit/ibd/a3/TNFDecomposition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment3/vk5548/TNFDecomposition/app/bin/main/edu/rit/ibd/a3/TNFDecomposition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment4/vk5548/IMDBSQLToMongo/app/bin/main/edu/rit/ibd/a4/IMDBSQLToMongo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment4/vk5548/IMDBSQLToMongo/app/bin/main/edu/rit/ibd/a4/IMDBSQLToMongo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment5/vk5548/DeRefMongo/app/bin/main/edu/rit/ibd/a5/DeRefMongo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment5/vk5548/DeRefMongo/app/bin/main/edu/rit/ibd/a5/DeRefMongo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/AprioriGen/app-opt/bin/main/edu/rit/ibd/a6/AprioriGenOpt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/AprioriGen/app-opt/bin/main/edu/rit/ibd/a6/AprioriGenOpt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/AprioriGen/app/bin/main/edu/rit/ibd/a6/AprioriGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/AprioriGen/app/bin/main/edu/rit/ibd/a6/AprioriGen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/GenerateLK/app/bin/main/edu/rit/ibd/a6/GenerateLK.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/GenerateLK/app/bin/main/edu/rit/ibd/a6/GenerateLK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/GenerateLOne/app-opt/bin/main/edu/rit/ibd/a6/GenerateLOneOpt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/GenerateLOne/app-opt/bin/main/edu/rit/ibd/a6/GenerateLOneOpt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/GenerateLOne/app/bin/main/edu/rit/ibd/a6/GenerateLOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/GenerateLOne/app/bin/main/edu/rit/ibd/a6/GenerateLOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/InitializeTransactions/app/bin/main/edu/rit/ibd/a6/InitializeTransactions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment6/vk5548/InitializeTransactions/app/bin/main/edu/rit/ibd/a6/InitializeTransactions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/AssignPointsToCentroids/app/bin/main/edu/rit/ibd/a7/AssignPointsToCentroids$Distance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/AssignPointsToCentroids/app/bin/main/edu/rit/ibd/a7/AssignPointsToCentroids$Distance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/AssignPointsToCentroids/app/bin/main/edu/rit/ibd/a7/AssignPointsToCentroids$Mean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/AssignPointsToCentroids/app/bin/main/edu/rit/ibd/a7/AssignPointsToCentroids$Mean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/AssignPointsToCentroids/app/bin/main/edu/rit/ibd/a7/AssignPointsToCentroids.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/AssignPointsToCentroids/app/bin/main/edu/rit/ibd/a7/AssignPointsToCentroids.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/InitPointsAndCentroids/app/bin/main/edu/rit/ibd/a7/InitPointsAndCentroids$Scaling.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/InitPointsAndCentroids/app/bin/main/edu/rit/ibd/a7/InitPointsAndCentroids$Scaling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/InitPointsAndCentroids/app/bin/main/edu/rit/ibd/a7/InitPointsAndCentroids.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/InitPointsAndCentroids/app/bin/main/edu/rit/ibd/a7/InitPointsAndCentroids.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/MutualInformation/app/bin/main/edu/rit/ibd/a7/MutualInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/MutualInformation/app/bin/main/edu/rit/ibd/a7/MutualInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/SilhouetteCoefficient/app/bin/main/edu/rit/ibd/a7/SilhouetteCoefficient$Distance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/SilhouetteCoefficient/app/bin/main/edu/rit/ibd/a7/SilhouetteCoefficient$Distance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/SilhouetteCoefficient/app/bin/main/edu/rit/ibd/a7/SilhouetteCoefficient$Mean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/SilhouetteCoefficient/app/bin/main/edu/rit/ibd/a7/SilhouetteCoefficient$Mean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/SilhouetteCoefficient/app/bin/main/edu/rit/ibd/a7/SilhouetteCoefficient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Assignment7/vk5548/SilhouetteCoefficient/app/bin/main/edu/rit/ibd/a7/SilhouetteCoefficient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../BigData_CSCI620/Data Science - Big Data/Clustering/InitPointsAndCentroids/app/src/main/java/edu/rit/ibd/a7/InitPointsAndCentroids.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../BigData_CSCI620/Data Science - Big Data/Clustering/InitPointsAndCentroids/app/src/main/java/edu/rit/ibd/a7/InitPointsAndCentroids.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assignment1/vk5548/IMDBExchangeMongo/app/bin/main/edu/rit/gdb/a1/IMDBExchangeMongo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assignment1/vk5548/IMDBExchangeMongo/app/bin/main/edu/rit/gdb/a1/IMDBExchangeMongo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cypher/Q1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cypher/Q1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cypher/Q2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cypher/Q2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cypher/Q3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cypher/Q3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cypher/Q4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cypher/Q4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cypher/Q5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cypher/Q5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cypher/Q6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cypher/Q6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/edu/rit/gdb/a2/IMDBExchangeNeo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/rit/gdb/a2/IMDBExchangeNeo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/rit/gdb/a2/IMDBExchangeNeo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMDBImportExport/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMDBImportExport/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMDBImportExport/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMDBImportExport/app/src/main/java/edu/rit/gdb/a2/IMDBImportExport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMDBImportExport/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMDBImportExport/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMDBImportExport/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMDBImportExport/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IMDBImportExport/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2EDni6x0gENfMrI4h7TbdR34HE2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5237cae4-8233-46c2-a027-4c583514df72" name="Changes" comment="" />
+      <created>1662139151508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662139151508</updated>
+    </task>
+    <servers />
+  </component>
+</project>

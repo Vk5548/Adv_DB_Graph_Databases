@@ -1,0 +1,123 @@
+{
+initialCollection:'People',
+pipeline:[{$facet: {
+    SS: [
+     {
+      $match: {
+       name: 'Steven Spielberg',
+       directed: {
+        $exists: true
+       }
+      }
+     }
+    ],
+    MA: [
+     {
+      $match: {
+       name: 'Mahershala Ali',
+       acted: {
+        $exists: true
+       }
+      }
+     },
+     {
+      $lookup: {
+       from: 'Movies',
+       localField: 'acted',
+       foreignField: '_id',
+       as: 'MAmovie'
+      }
+     },
+     {
+      $unwind: {
+       path: '$MAmovie'
+      }
+     },
+     {
+      $group: {
+       _id: '$_id',
+       minMA: {
+        $min: '$MAmovie.year'
+       }
+      }
+     },
+     {
+      $project: {
+       _id: 0
+      }
+     }
+    ],
+    FW: [
+     {
+      $match: {
+       name: 'Fran Walsh',
+       written: {
+        $exists: true
+       }
+      }
+     },
+     {
+      $lookup: {
+       from: 'Movies',
+       localField: 'written',
+       foreignField: '_id',
+       as: 'FWmovie'
+      }
+     },
+     {
+      $unwind: {
+       path: '$FWmovie'
+      }
+     },
+     {
+      $group: {
+       _id: '$_id',
+       minFW: {
+        $min: '$FWmovie.year'
+       }
+      }
+     },
+     {
+      $project: {
+       _id: 0
+      }
+     }
+    ]
+   }}, {$unwind: {
+    path: '$SS'
+   }}, {$unwind: {
+    path: '$MA'
+   }}, {$unwind: {
+    path: '$FW'
+   }}, {$unwind: {
+    path: '$SS.directed'
+   }}, {$lookup: {
+    from: 'Movies',
+    localField: 'SS.directed',
+    foreignField: '_id',
+    as: 'SSmovie'
+   }}, {$project: {
+    MAmin: '$MA.minMA',
+    FWmin: '$FW.minFW',
+    SSmovie: 1
+   }}, {$unwind: {
+    path: '$SSmovie'
+   }}, {$project: {
+    examMin: {
+     $min: [
+      '$FWmin',
+      '$MAmin'
+     ]
+    },
+    SSmovie: 1
+   }}, {$match: {
+    
+    'SSmovie.year': {$lte: 
+      
+      1989}
+     
+    
+   }}, {$project: {
+    title: '$SSmovie.otitle'
+   }}]
+}

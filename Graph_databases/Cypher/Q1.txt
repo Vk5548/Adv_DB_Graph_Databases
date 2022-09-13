@@ -1,0 +1,3 @@
+MATCH (big:Movie)<-[:directs]-(director:Person)-[:directs]->(com:Movie), (com)-[:classifiedAs] ->(gen :Genre), (com)<- [:actsIn]-(actor:Person)
+WHERE  (com.year >= 1985 and com.year<= 2005 and big.otitle= 'Big' and big.year= 1988 and gen.name = 'Comedy' or (com.otitle= 'Big' and com.year = 1988)) 
+RETURN DISTINCT actor.name as name

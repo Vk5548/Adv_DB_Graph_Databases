@@ -1,0 +1,43 @@
+{
+initialCollection:'Movies',
+pipeline:[{$match: {
+    otitle: 'Big',
+    year: 1988
+   }}, {$lookup: {
+    from: 'People',
+    localField: '_id',
+    foreignField: 'directed',
+    as: 'people_data'
+   }}, {$unwind: {
+    path: '$people_data'
+   }}, {$unwind: {
+    path: '$people_data.directed'
+   }}, {$lookup: {
+    from: 'Movies',
+    localField: 'people_data.directed',
+    foreignField: '_id',
+    as: 'moviesss'
+   }}, {$unwind: {
+    path: '$moviesss'
+   }}, {$match: {
+    'moviesss.genres': 'Comedy',
+    'moviesss.year': {
+     $lte: 2005
+    }
+   }}, {$lookup: {
+    from: 'People',
+    localField: 'moviesss._id',
+    foreignField: 'acted',
+    as: 'actors'
+   }}, {$unwind: {
+    path: '$actors'
+   }}, {$project: {
+    name: '$actors.name',
+    _id: 0
+   }}, {$group: {
+    _id: '$name'
+   }}, {$project: {
+    name: '$_id',
+    _id: 0
+   }}]
+}

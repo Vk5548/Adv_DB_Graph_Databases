@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Graph_databases/Graph_databases.iml" filepath="$PROJECT_DIR$/Graph_databases/Graph_databases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQL:NoSQL/SQL:NoSQL.iml" filepath="$PROJECT_DIR$/SQL:NoSQL/SQL:NoSQL.iml" />
+    </modules>
+  </component>
+</project>
