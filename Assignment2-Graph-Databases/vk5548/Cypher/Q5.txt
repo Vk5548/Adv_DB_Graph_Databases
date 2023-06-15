@@ -1,0 +1,8 @@
+CALL {MATCH (ma:Person {name:'Mahershala Ali'}) -[:actsIn]->(mam:Movie)
+return min(mam.year) as year
+UNION
+MATCH(fw:Person {name:'Fran Walsh'}) -[:writes]->(fwm:Movie)
+return min(fwm.year) as year} with min(year) as final
+Call{with final MATCH (ss:Person {name: 'Steven Spielberg'})- [:directs]- (ssm:Movie)
+where ssm.year <= final return ssm.otitle as title} with title
+return distinct(title)

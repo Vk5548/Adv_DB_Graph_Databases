@@ -1,0 +1,76 @@
+{
+initialCollection:'People',
+pipeline:[{$facet: {
+    direcKath: [
+     {
+      $match: {
+       name: 'Kathryn Bigelow',
+       directed: {
+        $exists: true
+       }
+      }
+     }
+    ],
+    direcJC: [
+     {
+      $match: {
+       name: 'James Cameron',
+       directed: {
+        $exists: true
+       }
+      }
+     }
+    ]
+   }}, {$unwind: {
+    path: '$direcKath'
+   }}, {$unwind: {
+    path: '$direcJC'
+   }}, {$lookup: {
+    from: 'People',
+    'let': {
+     dbyKath: '$direcKath.directed',
+     dbyJC: '$direcJC.directed'
+    },
+    pipeline: [
+     {
+      $project: {
+       actorKB: {
+        $setIntersection: [
+         '$$dbyKath',
+         '$acted'
+        ]
+       },
+       actorJC: {
+        $setIntersection: [
+         '$$dbyJC',
+         '$acted'
+        ]
+       }
+      }
+     },
+     {
+      $match: {
+       'actorKB.0': {
+        $exists: true
+       },
+       'actorJC.0': {
+        $exists: true
+       }
+      }
+     }
+    ],
+    as: 'result'
+   }}, {$project: {
+    result: 1
+   }}, {$unwind: {
+    path: '$result'
+   }}, {$unwind: {
+    path: '$result.actorKB'
+   }}, {$unwind: {
+    path: '$result.actorJC'
+   }}, {$project: {
+    m1: '$result.actorKB',
+    m2: '$result.actorJC',
+    p: '$result._id'
+   }}]
+}

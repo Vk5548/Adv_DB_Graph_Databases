@@ -1,0 +1,29 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	implementation 'com.google.guava:guava:31.1-jre'
+	implementation 'org.neo4j:neo4j:4.4.10'
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'edu.rit.gdb.a6.TopDownKCore'
+}
+
+java {
+    sourceCompatibility = '11'
+}
+
+tasks.withType(CreateStartScripts).each { task ->
+    task.doLast {
+        String text = task.windowsScript.text
+        text = text.replaceFirst(/(set CLASSPATH=%APP_HOME%\\lib\\).*/, { "${it[1]}*" })
+        task.windowsScript.write text
+    }
+}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="app1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Graph_databases/IMDBExchangeNeo/app/build/distributions/app.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

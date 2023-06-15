@@ -1,0 +1,5 @@
+MATCH (kw:Person {name : 'Kate Winslet'}) -[:actsIn]->(kwm:Movie) <- [:actsIn]-(other:Person) -[:actsIn]-> (ldcm:Movie)<-[:actsIn]- (ldc:Person {name : 'Leonardo DiCaprio'})
+WHERE not (kw) -[:actsIn]-(ldcm) and not (ldc) -[:actsIn]->(kwm)
+RETURN kwm.id as m1, ldcm.id as m2, other.id as p
+UNION
+MATCH (kw:Person {name : 'Kate Winslet'})-[:actsIn]->(some:Movie) <-[:actsIn]-(ldc:Person {name : 'Leonardo DiCaprio'}) RETURN some.id as m1, null as m2, null as p

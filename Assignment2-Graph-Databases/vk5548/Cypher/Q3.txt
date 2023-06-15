@@ -1,0 +1,4 @@
+MATCH (wa:Person {name:'Woody Allen'})-[:directs]->(com:Movie)<-[:actsIn]-(actor:Person),
+(actor)-[:isKnownFor]->(com)-[:classifiedAs]->(gen:Genre {name: 'Comedy'})
+with actor, count(actor) as total
+WHERE not actor.name='Woody Allen'  and  total >=2  RETURN actor.name as name
